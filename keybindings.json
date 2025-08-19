@@ -1,0 +1,17 @@
+[
+    {
+        "key": "space e",
+        "command": "workbench.action.closeSidebar",
+        "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+    },
+    {
+        "key": "cmd+a cmd+a",
+        "command": "workbench.action.chat.toggle"
+        // "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+/",
+        "command": "workbench.action.terminal.toggleTerminal"
+//        "when": "terminalFocus"
+    }
+]
