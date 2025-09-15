@@ -12,6 +12,24 @@
     {
         "key": "ctrl+/",
         "command": "workbench.action.terminal.toggleTerminal"
-//        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+-",
+        "command": "workbench.debug.action.toggleRepl"
+    },
+    // When file is focused in git view explorer, open it in the editor
+    {
+        "key": "ctrl+t",
+        "command": "vscode.open",
+        "when": "scmProviderFocus && !inputFocus"
+    }, 
+    // Ctrl+l switch to left pannel when the editor is split
+    {
+        "key": "ctrl+l",
+        "command": "workbench.action.focusLeftGroup"
+    },
+    {
+        "key": "ctrl+h",
+        "command": "workbench.action.focusRightGroup"
     }
 ]
